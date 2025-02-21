@@ -1,8 +1,8 @@
 # simplePasswordCheck
 This is a very simple password strength checker written in c++. 
 it can be compiled using the following two commands in the terminal:
-1. g++ -o check passwordChecker.cpp
-2. ./check
+1. g++ -o check passwordChecker.cpp  // to compile
+2. ./check // to execute once compiled
    
   You will then be prompted to enter a potential password. The function will then tell you how strong of a password you have entered.
 Please be aware of the limitations of this program. No password data is ever stored, so this code is not a security threat, however it is a very simple implementation.
